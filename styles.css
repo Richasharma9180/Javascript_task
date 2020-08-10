@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2 !important;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    margin-top: 15px;
+}
+
+.filter-box {
+    background: white !important;
+    margin: 0 0 15px 15px;
+    padding: 10px 15px;
+    height: fit-content;
+}
+
+.row {
+    flex-wrap: nowrap !important;
+}
+
+.col-2>p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p {
+    margin-bottom: 0 !important;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+hr {
+    margin-top: 0 !important;
+}
+
+.box {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #C5E09B;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    flex-direction: row;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: #769741;
+    cursor: pointer;
+}
+
+.card-img-top {
+    margin-top: 15px;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.data {
+    flex-wrap: wrap !important;
+}
+
+.card-img-top {
+    background-color: #F2F2F2;
+    height: 10rem;
+}
+
+.missionName {
+    color: rgba(0, 0, 255, 0.6);
+    font-weight: bold;
+}
+
+.details {
+    font-size: 13px;
+    font-weight: bold;
+}

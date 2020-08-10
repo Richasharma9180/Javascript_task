@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Task</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h3 class="header">SpaceX Launch Programs</h3>
+        <div class="row">
+            <div class="col-md-2 col-xs-12 filter-box">
+                <h6>Filter</h6>
+                <p>Launch Year</p>
+                <hr />
+                <div class="row">
+                    <div class="col-6">
+                        <div class="box">
+                            2006 
+                        </div>
+                        <div class="box">
+                            2008
+                        </div>
+                        <div class="box">
+                            2010
+                        </div>
+                        <div class="box">
+                            2012
+                        </div>
+                        <div class="box">
+                            2014
+                        </div>
+                        <div class="box">
+                            2016
+                        </div>
+                        <div class="box">
+                            2018
+                        </div>
+                        <div class="box">
+                            2020
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box">
+                            2007
+                        </div>
+                        <div class="box">
+                            2009
+                        </div>
+                        <div class="box">
+                            2011
+                        </div>
+                        <div class="box">
+                            2013
+                        </div>
+                        <div class="box">
+                            2015
+                        </div>
+                        <div class="box">
+                            2017
+                        </div>
+                        <div class="box">
+                            2019
+                        </div>
+                    </div>                                           
+                </div>  
+                <p>Successful Launch</p>
+                <hr />
+                <div class="row">
+                    <div class="col-6">
+                        <div class="box" onclick="renderLaunchSuccessData()">
+                            True
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box" onclick="renderLaunchFailureData()">
+                            False
+                        </div>
+                    </div>
+                </div>  
+                <p>Successful Landing</p>
+                <hr />
+                <div class="row">
+                    <div class="col-6">
+                        <div class="box">
+                            True
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box">
+                            False
+                        </div>
+                    </div>                    
+                </div>                            
+            </div>       
+            <div class="col-md-10">
+                <div class="row data">
+                    <!-- Dyanamic Data  -->
+                </div>
+                <h5 class="footer">Developed by: {Developer Name}</h5>
+            </div>
+
+
+        </div>    
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
